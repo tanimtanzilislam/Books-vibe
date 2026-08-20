@@ -1,5 +1,6 @@
 import { MainLayout } from "../layout/MainLayout";
 import { Books } from "../pages/books/Books";
+import ErrorPage from "../pages/errorPage/ErrorPage";
 import { Homepage } from "../pages/homepage/Homepage";
 import { createBrowserRouter } from "react-router";
  export const router = createBrowserRouter([
@@ -16,7 +17,8 @@ import { createBrowserRouter } from "react-router";
 
 
       }
-    ]
+    ],
+    errorElement:<ErrorPage/>
   },
   {
     path:"/books",
