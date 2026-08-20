@@ -3,7 +3,7 @@ import BookCard from "../ui/BookCard";
 
 const booksPromise = fetch("/booksData.json").then((res) => res.json());
 
-const AllBooks = () => {
+export const AllBooks = () => {
   const books = use(booksPromise);
   console.log(books, "books ");
   return (
