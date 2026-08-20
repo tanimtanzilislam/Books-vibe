@@ -46,7 +46,9 @@ export const Navbar = () => {
   );
 
   return (
-    <div className="navbar bg-base-100 shadow-sm">
+
+    <nav className=" bg-base-100 shadow-sm">
+    <div className=" navbar container mx-auto">
       <div className="navbar-start">
         <div className="dropdown">
           <div
@@ -92,5 +94,7 @@ export const Navbar = () => {
         <button className="btn btn-accent text-white">Sign Up</button>
       </div>
     </div>
+
+    </nav>
   );
 };

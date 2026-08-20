@@ -1,5 +1,5 @@
 
-import bookImg from '../../assets/hero_img.jpg'
+import bookImg from "../../assets/hero_img.jpg";
 export const Banner = () => {
   return (
     <div><div className="hero bg-base-200 min-h-[70vh] rounded-2xl my-8 container mx-auto">

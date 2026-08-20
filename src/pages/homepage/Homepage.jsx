@@ -1,4 +1,5 @@
-import { Banner } from "../../components/Banner"
+import { Banner } from "../../components/homepage/Banner";
+import { AllBooks } from "../../components/homepage/AllBooks";
 
 
 export const Homepage = () => {
@@ -6,6 +7,7 @@ export const Homepage = () => {
     <div>
 
         <Banner/>
+        <AllBooks/>
     </div>
   )
 }
