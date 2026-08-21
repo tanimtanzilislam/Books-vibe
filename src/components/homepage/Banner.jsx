@@ -18,3 +18,4 @@ export const Banner = () => {
 </div></div>
   )
 }
+//Banner.jsx

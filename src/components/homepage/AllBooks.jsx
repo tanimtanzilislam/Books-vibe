@@ -1,11 +1,10 @@
-import { use } from "react";
+import { useLoaderData } from "react-router-dom";
 import BookCard from "../ui/BookCard";
 
-const booksPromise = fetch("/booksData.json").then((res) => res.json());
-
 export const AllBooks = () => {
-  const books = use(booksPromise);
+  const books = useLoaderData();
   console.log(books, "books ");
+  
   return (
     <div className="my-12 container mx-auto">
       <h2 className="font-bold text-3xl text-center mb-6">Books</h2>

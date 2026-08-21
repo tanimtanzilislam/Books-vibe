@@ -1,5 +1,5 @@
 
-import { Link } from "react-router";
+import { Link } from "react-router-dom";
 
 const ErrorPage = () => {
   return (
@@ -30,3 +30,5 @@ const ErrorPage = () => {
 };
 
 export default ErrorPage;
+
+//ErrorPage.jsx
